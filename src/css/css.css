@@ -1,0 +1,275 @@
+@import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,500&family=Sassy+Frass&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Lora:ital,wght@1,500&family=Sassy+Frass&display=swap");
+
+.body {
+  background-color: black;
+  background-repeat: no-repeat;
+  background-size: 100% 1020px;
+  font-family: Arial, sans-serif;
+  font-size: 1.5rem;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.input1 {
+  width: 100%;
+  height: 50px;
+  border-radius: 20px;
+  padding-left: 10px;
+}
+
+#demo {
+  position: absolute;
+  background-image: url("../assets/backrev.jpeg");
+  right: 7%;
+  color: black;
+  top: 23%;
+  width: 35%;
+  height: 55%;
+  border-radius: 8px;
+  font-size: 1.2em;
+}
+.motiv {
+  position: absolute;
+  left: 3%;
+  top: 45%;
+  color: var(--motiv-color);
+  padding: auto;
+  text-align: justify;
+  margin-left: 15px;
+  font-size: 45px;
+
+  font-family: "Lora", serif;
+  font-family: "Sassy Frass", cursive;
+}
+#demo input {
+  border: 1px solid gray;
+}
+form {
+  padding: 10%;
+}
+
+.but1 {
+  width: 100%;
+  height: 50px;
+  border-radius: 15px;
+  border: 1px;
+  color: white;
+  font-size: 0.7em;
+  background-color: rgba(81, 65, 90, 0.749);
+}
+
+.but2 {
+  width: 50%;
+  height: 50px;
+  border-radius: 15px;
+  font-size: 0.7em;
+  border: 1px;
+  color: white;
+  margin-top: 25px;
+  background-color: rgba(81, 65, 90, 0.749);
+}
+#bar {
+  margin-top: 20px;
+}
+
+.forget {
+  font-size: 15px;
+  color: rgb(52, 50, 50);
+  position: relative;
+  top: 10px;
+}
+input[placeholder] {
+  font-size: 0.55em;
+}
+
+.but1:hover {
+  background-color: rgb(0, 66, 128);
+}
+
+.but2:hover {
+  background-color: rgb(0, 66, 128);
+  transition: 1s;
+}
+.se {
+  background-color: rgba(255, 255, 255, 0.401);
+}
+
+#claser {
+  text-align: center;
+}
+
+#demo1 {
+  position: absolute;
+  display: none;
+  color: black;
+  background-color: rgb(255, 255, 255);
+  width: 0px;
+  right: 25%;
+  top: 25%;
+  font-size: 1.2em;
+}
+
+#demo1 input {
+  width: 98%;
+  height: 40px;
+  padding: 4px;
+  color: black;
+  border: 1px solid gray;
+  border-radius: 5px;
+}
+
+.name {
+  display: flex;
+  width: 480px;
+  margin: 3% 0%;
+  position: relative;
+  top: 7px;
+}
+
+select {
+  width: 100%;
+  border-radius: 10px;
+  margin-right: 5px;
+}
+.spane {
+  position: relative;
+  top: 4px;
+  font-size: 16px;
+}
+.naissance {
+  position: relative;
+  top: 4px;
+  display: flex;
+  height: 40px;
+  width: 485px;
+}
+.genre {
+  display: flex;
+}
+.seul {
+  position: relative;
+  top: 0px;
+  margin-bottom: 10px;
+  background-color: rgba(255, 255, 255, 0.401);
+  color: black;
+}
+
+#contenu {
+  height: 80%;
+  width: 85%;
+  margin: auto;
+  color: black;
+  margin-bottom: 10%;
+}
+div[class="name"] input:first-child {
+  margin-right: 1%;
+}
+.button-div {
+  height: 18px;
+  border-radius: 20px;
+  font-size: 10px;
+}
+
+.spann {
+  position: relative;
+  top: 5px;
+  font-size: 15px;
+}
+
+.border {
+  background-color: rgba(255, 255, 255, 0.401);
+  color: black;
+  border: 1px solid gray;
+  padding: 7px;
+  border-radius: 5px;
+  font-size: 20px;
+  margin-right: 10px;
+  margin-top: 5px;
+  position: relative;
+  top: 5px;
+}
+
+.ss {
+  text-align: justify;
+  position: relative;
+  top: 11px;
+  font-size: 12px;
+}
+
+.inscrire {
+  background-color: rgba(66, 50, 73, 0.592);
+  width: 50%;
+  color: white;
+  height: 40px;
+  margin-left: 25%;
+  border-radius: 8px;
+  border: 0px;
+  font-size: large;
+  position: relative;
+  top: 30px;
+}
+
+.inscrire:hover {
+  transition: 2s;
+  background-color: green;
+}
+
+.reject {
+  background-color: rgba(255, 255, 255, 0);
+  float: right;
+  margin-top: 2%;
+  margin-right: 2%;
+
+  font-size: 20px;
+  border: 0px;
+}
+@keyframes demon {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+#yes {
+  display: absolute;
+  position: absolute;
+  background-image: url("../assets/bbins.jpeg");
+  background-repeat: no-repeat;
+  background-size: 900px;
+  animation-name: demon;
+  animation-duration: 2s;
+  width: 38%;
+  right: 31%;
+  top: 16.7%;
+  font-size: 1.2em;
+  z-index: 100000;
+  border-radius: 4%;
+}
+.bari {
+  margin-top: 5px;
+}
+.hre {
+  position: relative;
+  top: 3px;
+  margin-top: 17px;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 30px;
+}
+
+#yes input {
+  width: 98%;
+  height: 40px;
+  padding: 4px;
+  border: 1px solid gray;
+  border-radius: 5px;
+}
+
+#backoff {
+  background-color: black;
+}

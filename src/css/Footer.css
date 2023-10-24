@@ -1,0 +1,52 @@
+footer {
+  display: flex;
+  background: linear-gradient(
+    to bottom,
+    #4a5058,
+    #3b424e,
+    #2d3444,
+    #212739,
+    #161a2f
+  );
+  border-top: solid 4px #2e1f58;
+  padding: 3rem;
+  justify-content: space-between;
+  font-size: 1.2em;
+  margin-top: 40%;
+}
+#contacts {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #303841;
+  height: 90vh;
+}
+
+#contacts h1 {
+  font-size: 4.5rem;
+  margin-bottom: 15px;
+}
+
+#contacts p {
+  font-style: italic;
+  font-size: 1.4rem;
+  font-weight: 100;
+  margin-bottom: 5vh;
+}
+
+#contacts ul {
+  display: flex;
+}
+
+#contacts li {
+  margin-right: 3vw;
+  font-size: 1.8em;
+}
+.contact-links {
+  background-color: rgba(61, 59, 65, 0.036);
+  position: relative;
+  left: 790px;
+  bottom: 25px;
+  margin: auto;
+}
