@@ -69,7 +69,7 @@ export const Navbar = () => {
           <div className="menu" id="menu">
             <ul className="list">
               <li className="list-item">
-                <Link to="/"> Home</Link>
+                <Link to="/Weblary">Home</Link>
               </li>
               <li className="list-item">
                 <Link to="/about">Library</Link>

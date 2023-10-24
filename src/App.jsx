@@ -11,7 +11,7 @@ function App() {
     <>
     <Navbar/>
     <Routes>
-      <Route path="/" element={<Home id="home" style={{ backgroundColor: "lightblue" }}/>}></Route>
+      <Route path="/Weblary" element={<Home id="home" style={{ backgroundColor: "lightblue" }}/>}></Route>
       <Route path="/about" element={<About id="lib"/>}></Route>
       <Route path="/review" element={<Review id="R"/>}></Route>
     </Routes>
